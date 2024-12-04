@@ -1,0 +1,170 @@
+body
+{
+    background-color: #25443F;
+}
+
+img[src$="logo.png"]
+{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 15px;
+    right: 40px;
+}
+
+header > h1, header > h2, header > h3
+{
+    text-align: center;
+}
+
+header > h1
+{
+    color: #79DFD1;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    position: relative;
+    bottom: 20px;
+}
+
+header > h2
+{
+    padding-top: 50px;
+    color: #79DFD1;
+    font-size: 50px;
+}
+
+header > h3
+{
+    font-style: italic;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.767);
+    position: relative;
+    bottom: 20px;
+}
+
+nav > ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    list-style-type: none;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    height: 50px;
+}
+
+nav > ul > li > a
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+
+nav > ul > li > a:hover
+{
+    background-color: rgba(255, 255, 255, 0.096);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: yellow;
+}
+
+section#p1
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    left: 0px;
+}
+
+section#p1 > aside > video
+{
+    border: 2px solid yellow;
+    height: 400px;
+}
+
+section#p1 > article
+{
+    position: relative;
+    top: 100px;
+}
+
+section#p1 > article > p
+{
+    width: 700px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+section > p
+{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+section > h2
+{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+section
+{
+    position: relative;
+    top: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+div#img
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+div#img > img
+{
+    height: 200px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    position: relative;
+    top: 200px;
+    padding-left: 50px;
+    border-top: 2px solid white;
+}
+
+footer > div > h3
+{
+    gap: 20px;
+    color: white;
+}
+
+footer > div > a
+{
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer > div > a:hover
+{
+    text-decoration: underline yellow;
+}

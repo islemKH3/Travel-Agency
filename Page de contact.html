@@ -1,0 +1,128 @@
+<html>
+
+    <head>
+
+        <title>Contacts</title>
+        <meta name="author" contnent="Islem Khelifi">
+        <meta name="keyword" content="travel agency, flights, booking, hotels, turkey, japan, france, worldwide">
+        <link rel="stylesheet" href="Page de contact.css">
+
+    </head>
+
+    <body>
+        
+        <header>
+
+            <img src="logo.png" alt="Travel With Islem">
+            <h2>DISCOVER</h2>
+            <h1>TRAVEL WITH ISLEM Agency</h1>
+            <h3>You want to book a flight? To book in a hotel? Travel With Islem offers that and even more.</h3>
+            
+            <nav>
+
+                <ul>
+                    <li><a href="Page d'acceuil.html">&emsp;Home&emsp;</a></li>
+                    <li><a href="Page de destination Japan.html">&emsp;Japan&emsp;</a></li>
+                    <li><a href="Page de destination France.html">&emsp;France&emsp;</a></li>
+                    <li><a href="Page de destination Turkey.html">&emsp;Turkey&emsp;</a></li>
+                    <li><a href="Page de contact.html">&emsp;Contacts&emsp;</a></li>
+                </ul>
+                
+            </nav>
+
+        </header>
+
+        <section>
+
+            <form action="" method="post" name="contact">
+
+                <fieldset id="destination">
+
+                    <legend>Choosing your destination</legend>
+
+                    <label>Name: </label><br>
+                    <input type="text" size="15" maxlength="30" required placeholder="ex. Islem"><br><br>
+                    
+                    <label>Last Name: </label><br>
+                    <input type="text" size="15" maxlength="30" required placeholder="ex. Khelifi"><br><br>
+                    
+                    <label>Email: </label><br>
+                    <input type="email" required placeholder="ex. islem333@gmail.com"><br><br>
+
+                    <label>Phone number</label><br>
+                    <input type="tel"><br><br>
+
+                    <label>How many people are with you: </label><br>
+                    <input type="text" size="15" maxlength="30"><br><br>
+
+                    <label>Destination: </label><br>
+                    <select name="destination">
+                        <option value="japan">Japan</option>
+                        <option value="france">France</option>
+                        <option value="turkey">Turkey</option>
+                    </select><br><br>
+
+                    <label>Airline: </label><br>
+                    <select name="destination">
+                        <option value="Tunisair">Tunisair</option>
+                        <option value="Tunisavia">Tunisavia</option>
+                        <option value="Syphax Airlines">Syphax Airlines</option>
+                    </select><br><br>
+
+                    <label>Date of the voyage: </label><br>
+                    <input type="date"><br>
+
+                </fieldset>
+
+                <fieldset id="hotel">
+
+                    <legend>Choosing a hotel</legend>
+
+                    <label>How many stars should the hotel be: </label><br>
+                    <select name="stars">
+                        <option value="2">2 stars</option>
+                        <option value="3">3 stars</option>
+                        <option value="4">4 stars</option>
+                        <option value="5">5 stars</option>
+                    </select><br><br>
+
+                    <label>Would you like to have a tour guide: </label><br>
+                    <input type="radio" name="guide" value="Yes"><label>Yes</label>
+                    <input type="radio" name="guide" value="No" checked><label>No</label><br>
+
+                </fieldset>
+
+                <fieldset id="problem">
+
+                    <legend>If you have a problem</legend>
+
+                    <label>If you are ever facing a problem with regestration, feel free to tell us about it: </label><br>
+                    <textarea name="comment" rows="10" cols="100"></textarea>
+
+                </fieldset>
+
+                <input type="submit" value="Submit">
+		        <input type="reset" value="Reset">
+
+            </form>
+
+        </section>
+
+        <footer>
+
+            <div>
+                <h3>You can contact us through our social medias:</h3>
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter.png" alt="Twitter"></a>
+            </div>
+
+            <div>
+                <h3>Or simply by dialing our number right here:</h3>
+                <a href="tel:+21652051379">+216 52 051 379</a>
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>

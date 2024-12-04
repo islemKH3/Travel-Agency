@@ -1,0 +1,143 @@
+body
+{
+    background-color: #25443F;
+}
+
+img[src$="logo.png"]
+{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 15px;
+    right: 40px;
+}
+
+header > h1, header > h2, header > h3
+{
+    text-align: center;
+}
+
+header > h1
+{
+    color: #79DFD1;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    position: relative;
+    bottom: 20px;
+}
+
+header > h2
+{
+    padding-top: 50px;
+    color: #79DFD1;
+    font-size: 50px;
+}
+
+header > h3
+{
+    font-style: italic;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.767);
+    position: relative;
+    bottom: 20px;
+}
+
+nav > ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    list-style-type: none;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    height: 50px;
+}
+
+nav > ul > li > a
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+
+nav > ul > li > a:hover
+{
+    background-color: rgba(255, 255, 255, 0.096);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: yellow;
+}
+
+fieldset
+{
+    position: relative;
+    top: 70px;
+    left: 250px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+fieldset#hotel
+{
+    position: relative;
+    top: 140px;
+}
+
+fieldset#problem
+{
+    position: relative;
+    top: 210px;
+}
+
+fieldset > legend
+{
+    color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 30px;
+}
+
+input[value$="Submit"], input[value$="Reset"]
+{
+    position: relative;
+    top: 230px;
+    left: 250px;
+    font-size: 18px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    position: relative;
+    top: 300px;
+    padding-left: 50px;
+    border-top: 2px solid white;
+}
+
+footer > div > h3
+{
+    gap: 20px;
+    color: white;
+}
+
+footer > div > a
+{
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer > div > a:hover
+{
+    text-decoration: underline yellow;
+}
